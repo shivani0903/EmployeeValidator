@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployeeValidator">
         <activity
+            android:name=".Protected"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
